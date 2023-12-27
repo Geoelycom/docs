@@ -1,71 +1,72 @@
 ---
 title: Introduction
-description: 'Welcome to the home of your new documentation'
+description: 'Welcome to the homepage of Easepay documentation. we will help you get started and running in a jiffy!
+
+'
 ---
 
 <img
-  className="block dark:hidden"
-  src="/images/hero-light.svg"
+  className="block light:hidden"
+  src="/images/Herolight.svg"
   alt="Hero Light"
 />
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.svg"
-  alt="Hero Dark"
-/>
 
-## Setting up
+Easepay offers a powerful REST API that supports bitcoin lightning network and standard on-chain operations with action events associated allowing you to receive and send bitcoin transactions instantly.
 
-The first step to world-class documentation is setting up your editing environnments.
+Our API uses HTTP response codes and returns all error responses in JSON. To explore the API as much as possible, we offer a developer environment in addition to production. Any operations made in the development environment use the Bitcoin's testnet network as well as Lightning infrastructure connected to testnet full nodes.
+
+Development and production environments require separate API Keys that can be generated in your personal dashboard settings.
+
+Our API gives developers the ability to build products ontop of the bitcoin and lightning network. You can easily perfom the following operations:
+
+1. Getting historical Bitcoin data for your data-driven 
+  applications(using our confluent kafka connect)
+2. Send and Receive Bitcoin and Lightning transactions
+3. obtain real-time Bitcoin price data based on your currency of choice
+4. Build your own Bitcoin and Lightning payment applications
+5. Integrate Bitcoin wallets into your products
+6. Securely convert your bitcoin to your currency of choice
+7. Connect to the Bitcoin and ligtning network using our Nodes 
+8. Real-time notifications of wallet transactions
+9. Implement transactions tracking to your products
+
+## sign-up
+   To get started, you must create an account on the [sign-up](https://easepay.io/signup) page by filling in your accurate details in just three steps - Full name, Business Email, Password.
+
+
+![Sign-up](/images/Signupdark.svg)
+
+Next, you will verify your account by providing the OTP code we sent to your email. please check your spam and promotion folder if you can't find it in your primary email folder.
+
+![Verify-account](/images/AccountVerificationscreen.svg)
+
+After a successful verification, you should be Automatically redirected to  our login page for you to log in.
+
+![Log-in](/images/Signindark.jpg)
+
+On a successful login, You will be prompted to provide some informations about your business. this details include your Business name, business type, country and transaction volume.
+you might be prompted again to undergo some KYC(Know your customer) depending on the country you selected in the last step. Please **Note**, the KYC process can be skipped if you don't feel comfortable providing this information.
+![on-boarding](/images/Generalinformation.svg)
+
+
+## Quick start
+
+The easiest way to get started with our api is to set up your environments
 
 <CardGroup cols={2}>
   <Card
-    title="Edit Your Docs"
+    title="Set-up your environment"
     icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
+    href="https://docs.easepay.io/quickstart"
   >
     Get your docs set up locally for easy development
   </Card>
   <Card
-    title="Preview Changes"
+    title="view our FAQS"
     icon="image"
-    href="https://mintlify.com/docs/development"
+    href="https://support.easepay.io/help-center"
   >
-    Preview your changes before you push to make sure they're perfect
+    navigate through our FAQS to get you quickly acquainted with our platform
   </Card>
 </CardGroup>
 
-## Make it yours
-
-Update your docs to your brand and add valuable content for the best user conversion.
-
-<CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
-    Customize your docs to your company's colors and brands
-  </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/components/accordion"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/showcase"
-  >
-    Check out our showcase of our favorite documentation
-  </Card>
-</CardGroup>

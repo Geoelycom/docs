@@ -1,34 +1,41 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
   "name": "Easepay",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
+  "background": {
+    "light": "#FCFDFE",
+    "dark": "#03041C"
+  },
+
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+    "primary": "#006FF0",
+    "background": {
+    "light": "#FCFDFE",
+    "dark": "#03041C"
     }
   },
+
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:info@easepay.io"
+      "name": "Login",
+      "url": "https://www.easepay.io/login"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.easepay.io"
+    "name": "Get Started",
+    "url": "https://www.easepay.io"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "API Reference & SDK Documentation",
+      "url": "https://docs.easpay.io/api-reference"
+    },
+    {
+      "name": "Changelogs",
+      "url": "https://docs.easpay.io/sdk-reference"
     }
   ],
   "anchors": [
@@ -38,29 +45,43 @@
       "url": "https://easepay.io/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://easepay.io/community"
+      "name": "API Reference",
+      "icon": "book",
+      "url": "https://easepay.io/"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://easepay.io/blog"
+      "name": "Github",
+      "icon": "github",
+      "url": "https://www.github.com/Easepay"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development", "integration"]
+      "group": "Overview",
+      "pages": ["introduction", "quickstart", "Setup and Environments", "Authentication", "Error Codes", "integration", "Metadata"]
+    },
+
+    {
+      "group": "Guides",
+      "pages": ["Receiving Bitcoin payments", "Initaite bitcoin request", "Handling underpayments", "Your first bitcion Payout", "Handling failed transactions"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "Core Resources",
+      "pages": ["api-reference/Webhook", 
+      {
+          "group": "checkout-integration",
+          "pages": ["payouts", "checkout page", "creating invoice", "displaying invoice", "invoice webhook", "invoice state"]
+      },
+      "api-reference/setup and Testing",
+
+      {
+        "group": "In person-payments",
+        "pages": ["setup & innitiate payments", "custom payments","payment status","Troubleshooting"]
+       },
+
+      "api-reference/Authentication", "api-reference/"]
     },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
+
     {
       "group": "Endpoint Examples",
       "pages": [
