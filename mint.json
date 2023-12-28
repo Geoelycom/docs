@@ -58,30 +58,30 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["introduction", "quickstart", "Setup and Environments", "Authentication", "Error Codes", "integration", "Metadata"]
+      "pages": ["introduction", "development", "Authentication", "Error Codes", "integration", "Metadata"]
     },
 
     {
       "group": "Guides",
       "pages": ["Receiving Bitcoin payments", "Initaite bitcoin request", "Handling underpayments", "Your first bitcion Payout", "Handling failed transactions"]
     },
+
     {
       "group": "Core Resources",
       "pages": ["api-reference/Webhook", 
+      "api-reference/Authentication",
       {
           "group": "checkout-integration",
           "pages": ["payouts", "checkout page", "creating invoice", "displaying invoice", "invoice webhook", "invoice state"]
       },
       "api-reference/setup and Testing",
-
+      
       {
         "group": "In person-payments",
         "pages": ["setup & innitiate payments", "custom payments","payment status","Troubleshooting"]
-       },
-
-      "api-reference/Authentication", "api-reference/"]
+       }
+    ]
     },
-
     {
       "group": "Endpoint Examples",
       "pages": [
