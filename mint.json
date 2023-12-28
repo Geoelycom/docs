@@ -58,7 +58,7 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["introduction", "development", "Setup and Environments", "Authentication", "Error Codes", "integration", "Metadata"]
+      "pages": ["introduction", "development", "Authentication", "Error Codes", "integration", "Metadata"]
     },
 
     {
