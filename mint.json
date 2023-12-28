@@ -31,23 +31,23 @@
   "tabs": [
     {
       "name": "API Reference & SDK Documentation",
-      "url": "https://docs.easpay.io/api-reference"
+      "url": "https://docs.easepay.io/api-reference/endpoint/introduction.mdx"
     },
     {
       "name": "Changelogs",
-      "url": "https://docs.easpay.io/sdk-reference"
+      "url": "https://docs.easepay.io/sdk-reference"
     }
   ],
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://easepay.io/docs"
+      "url": "/docs/documentation"
     },
     {
       "name": "API Reference",
-      "icon": "book",
-      "url": "https://easepay.io/"
+      "icon": "code",
+      "url": "https://docs.easepay.io/api-reference/endpoint/introduction.mdx"
     },
     {
       "name": "Github",
@@ -58,12 +58,12 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["introduction", "development", "Authentication", "Error Codes", "integration", "Metadata"]
+      "pages": ["overview/introduction", "overview/development", "overview/Authentication", "overview/Error Codes", "overview/integration", "overview/Metadata"]
     },
 
     {
       "group": "Guides",
-      "pages": ["Receiving Bitcoin payments", "Initaite bitcoin request", "Handling underpayments", "Your first bitcion Payout", "Handling failed transactions"]
+      "pages": ["guides/Receiving-Bitcoin-payments", "guides/Initaite-Bitcoin-request", "guides/Handling-underpayments", "guides/Your-first-bitcion-Payout", "guides/Handling-failed-transactions"]
     },
 
     {
