@@ -31,7 +31,7 @@
   "tabs": [
     {
       "name": "API Reference & SDK Documentation",
-      "url": "https://docs.easepay.io/api-reference/endpoint/introduction.mdx"
+      "url": "https://docs.easepay.io/api-reference/introduction.mdx"
     },
     {
       "name": "Changelogs",
