@@ -69,7 +69,7 @@
           "pages": ["core-resources/checkout-integration/Payouts", "core-resources/checkout-integration/Checkout-page", "core-resources/checkout-integration/Creating-invoice", "core-resources/checkout-integration/Displaying-invoice", "core-resources/checkout-integration/Invoice-state" ]
       },
           "core-resources/setup-and-Testing",
-          "core-resources/setup-&-innitiate-payments",
+          "core-resources/innitiate-payments",
           "core-resources/Troubleshooting",
           "core-resources/payment-status"
     ]
