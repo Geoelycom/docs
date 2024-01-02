@@ -8,5 +8,6 @@ Welcome to the homepage of Easepay documentation. we would get you up and runnin
 - Customizations
 - API Reference pages
 - Use of popular components
+- Easepay Checkouts
 
 ### Development
