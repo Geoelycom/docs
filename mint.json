@@ -68,10 +68,11 @@
           "group": "checkout-integration",
           "pages": ["core-resources/checkout-integration/Payouts", "core-resources/checkout-integration/Checkout-page", "core-resources/checkout-integration/Creating-invoice", "core-resources/checkout-integration/Displaying-invoice", "core-resources/checkout-integration/Invoice-state" ]
       },
-          "core-resources/setup-and-Testing",
-          "core-resources/innitiate-payments",
+          "core-resources/Setup-and-Testing",
+          "core-resources/Innitiate-payments",
           "core-resources/Troubleshooting",
-          "core-resources/payment-status"
+          "core-resources/Webhooks",
+          "core-resources/Payment-status"
     ]
     },
     {
