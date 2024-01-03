@@ -53,7 +53,7 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["overview/introduction", "overview/development", "overview/Authentication", "overview/Error-Codes", "overview/integration", "overview/Metadata"]
+      "pages": ["overview/introduction", "overview/development", "overview/Authentication", "overview/Error-Codes", "overview/Integration", "overview/Hosted-checkout"]
     },
 
     {
@@ -63,7 +63,7 @@
 
     {
       "group": "Core Resources",
-      "pages": ["core-resources/Webhooks", 
+      "pages": [ 
       {
           "group": "checkout-integration",
           "pages": ["core-resources/checkout-integration/Payouts", "core-resources/checkout-integration/Checkout-page", "core-resources/checkout-integration/Creating-invoice", "core-resources/checkout-integration/Displaying-invoice", "core-resources/checkout-integration/Invoice-state" ]
