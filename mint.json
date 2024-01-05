@@ -58,7 +58,7 @@
 
     {
       "group": "Guides",
-      "pages": ["guides/Receiving-Bitcoin-payments", "guides/Initaite-Bitcoin-request", "guides/Handling-underpayments", "guides/Your-first-bitcion-Payout", "guides/Handling-failed-transactions"]
+      "pages": ["guides/Receiving-Bitcoin-payments", "guides/Initaite-Bitcoin-request", "guides/Handling-underpayments", "guides/Your-first-bitcoin-Payout", "guides/Handling-failed-transactions"]
     },
 
     {
