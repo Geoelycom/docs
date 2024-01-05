@@ -32,10 +32,6 @@
     {
       "name": "API Reference & SDK Documentation",
       "url": "api-reference"
-    },
-    {
-      "name": "Changelogs",
-      "url": "Changelogs"
     }
   ],
   "anchors": [
@@ -53,7 +49,7 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["overview/introduction", "overview/development", "overview/authentication", "overview/Error-Codes", "overview/integration", "overview/Account"]
+      "pages": ["overview/introduction", "overview/development", "overview/authentication", "overview/Error-Codes", "overview/integration", "overview/account"]
     },
 
     {
