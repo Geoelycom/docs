@@ -53,7 +53,7 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["overview/introduction", "overview/development", "overview/Authentication", "overview/Error-Codes", "overview/Integration", "overview/Account"]
+      "pages": ["overview/introduction", "overview/development", "overview/authentication", "overview/Error-Codes", "overview/Integration", "overview/Account"]
     },
 
     {
