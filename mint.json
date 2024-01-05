@@ -53,7 +53,7 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["overview/introduction", "overview/development", "overview/authentication", "overview/Error-Codes", "overview/Integration", "overview/Account"]
+      "pages": ["overview/introduction", "overview/development", "overview/authentication", "overview/Error-Codes", "overview/integration", "overview/account"]
     },
 
     {
@@ -68,11 +68,11 @@
           "group": "checkout-integration",
           "pages": ["core-resources/checkout-integration/Payouts", "core-resources/checkout-integration/Checkout-page", "core-resources/checkout-integration/Creating-invoice", "core-resources/checkout-integration/Displaying-invoice", "core-resources/checkout-integration/Invoice-state" ]
       },
-          "core-resources/Setup-and-Testing",
-          "core-resources/Innitiate-payments",
-          "core-resources/Troubleshooting",
-          "core-resources/Webhooks",
-          "core-resources/Payment-status"
+          "core-resources/setup-and-testing",
+          "core-resources/innitiate-payments",
+          "core-resources/troubleshooting",
+          "core-resources/webhooks",
+          "core-resources/payment-status"
     ]
     },
     {
